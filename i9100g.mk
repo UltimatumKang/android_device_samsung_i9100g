@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     libtinyalsa \
     libaudioutils \
     lights.t1 \
-    power.t1 \
     tinyplay \
     tinycap \
     tinymix \
