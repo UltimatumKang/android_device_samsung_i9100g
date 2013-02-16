@@ -53,14 +53,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15
 
-# Greenblob Kernel Modules
-PRODUCT_COPY_FILES += \
-        device/samsung/i9100g/prebuilt/ansi_cprng.ko:system/lib/hw/modules/ansi_cprng.ko \
-        device/samsung/i9100g/prebuilt/cifs.ko:system/lib/hw/modules/cifs.ko \
-	device/samsung/i9100g/prebuilt/dhd.ko:system/lib/hw/modules/dhd.ko \
-	device/samsung/i9100g/prebuilt/j4fs.ko:system/lib/hw/modules/j4fs.ko \
-	device/samsung/i9100g/prebuilt/scsi_wait_scan.ko:system/lib/hw/modules/scsi_wait_scan.ko
-
 # Media profiles
 PRODUCT_COPY_FILES += \
     device/samsung/i9100g/configs/media_codecs.xml:system/etc/media_codecs.xml \
